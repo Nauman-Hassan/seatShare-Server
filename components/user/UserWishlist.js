@@ -129,8 +129,7 @@ if (!req.body?.name) {
       heartUser,
     });
 
-    
-
+// 
         newCard.save((err, success) => {
           console.log("Succ", success);
           if (err) {
